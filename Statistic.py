@@ -2,6 +2,8 @@ import psutil
 import subprocess
 from time import sleep
 import datetime
+import csv
+
 
 
 def proc(way):
@@ -16,9 +18,9 @@ def proc(way):
 w = input('Ведите полный путь к исполняемому процессу: ')
 n = int(input('Задайте интервал сбора статистики: '))
 
-process_for_test = subprocess.Popen([w])
+process_for_test = subprocess.run([w], stdout=subprocess.PIPE)
 print('Запуск...')
-sleep(3)
+sleep(7)
 print('Скрипт запущен.\n'
       'Для прекращения сбора статистики закройте окно.\n'
       '\n'
@@ -26,14 +28,12 @@ print('Скрипт запущен.\n'
 now = datetime.datetime.now()
 p = psutil.Process(proc(w))
 
+with open(f'Statistic files/{p.name()} {now.strftime("%d-%m-%Y %H-%M")}.csv', 'a', newline='') as csv_file:
+    csv_writer = csv.writer(csv_file, delimiter=';')
+    csv_writer.writerow(['Загрузка CPU', 'Потребление памяти: Private Bytes', 'Потребление памяти: Working Set', 'Количество открытых хендлов'])
+
 while True:
-    ls = []
     with p.oneshot():
-        ls.append(f'Загрузка CPU - {p.cpu_percent(interval=n)}%')
-        ls.append(f'Потребление памяти: Private Bytes - {p.memory_info().private / 1024} Mb')
-        ls.append(f'Потребление памяти: Working Set - {p.memory_info().wset / 1024} Mb')
-        ls.append(f'Количество открытых хендлов - {p.num_handles()}\n')
-    with open(f'Statistic files/{p.name()} {now.strftime("%d-%m-%Y %H-%M")}', 'a', encoding='UTF-8') as f:
-        for line in ls:
-            f.write(f'{line}\n')
-        ls.clear()
+        with open(f'Statistic files/{p.name()} {now.strftime("%d-%m-%Y %H-%M")}.csv', 'a', encoding='UTF-8', newline='') as csv_file:
+            csv_writer = csv.writer(csv_file, delimiter=';')
+            csv_writer.writerow([p.cpu_percent(interval=n), p.memory_info().private / 1024, p.memory_info().wset / 1024, p.num_handles()])

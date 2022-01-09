@@ -851,10 +851,6 @@
    'c:\\users\\evgeniy '
    'orlov\\appdata\\local\\programs\\python\\python39\\lib\\email\\errors.py',
    'PYMODULE'),
-  ('csv',
-   'c:\\users\\evgeniy '
-   'orlov\\appdata\\local\\programs\\python\\python39\\lib\\csv.py',
-   'PYMODULE'),
   ('importlib.abc',
    'c:\\users\\evgeniy '
    'orlov\\appdata\\local\\programs\\python\\python39\\lib\\importlib\\abc.py',
@@ -891,6 +887,10 @@
    'c:\\users\\evgeniy '
    'orlov\\appdata\\local\\programs\\python\\python39\\lib\\ast.py',
    'PYMODULE'),
+  ('stringprep',
+   'c:\\users\\evgeniy '
+   'orlov\\appdata\\local\\programs\\python\\python39\\lib\\stringprep.py',
+   'PYMODULE'),
   ('tracemalloc',
    'c:\\users\\evgeniy '
    'orlov\\appdata\\local\\programs\\python\\python39\\lib\\tracemalloc.py',
@@ -899,9 +899,9 @@
    'c:\\users\\evgeniy '
    'orlov\\appdata\\local\\programs\\python\\python39\\lib\\_py_abc.py',
    'PYMODULE'),
-  ('stringprep',
+  ('csv',
    'c:\\users\\evgeniy '
-   'orlov\\appdata\\local\\programs\\python\\python39\\lib\\stringprep.py',
+   'orlov\\appdata\\local\\programs\\python\\python39\\lib\\csv.py',
    'PYMODULE'),
   ('datetime',
    'c:\\users\\evgeniy '
