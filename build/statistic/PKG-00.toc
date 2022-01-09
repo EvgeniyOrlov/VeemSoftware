@@ -1,4 +1,4 @@
-('C:\\python\\VeemSoftware\\build\\Statistic\\Statistic.pkg',
+('C:\\python\\VeemSoftware\\build\\statistic\\statistic.pkg',
  {'BINARY': 1,
   'DATA': 1,
   'EXECUTABLE': 1,
@@ -8,7 +8,7 @@
   'PYZ': 0,
   'SPLASH': 1},
  [('PYZ-00.pyz',
-   'C:\\python\\VeemSoftware\\build\\Statistic\\PYZ-00.pyz',
+   'C:\\python\\VeemSoftware\\build\\statistic\\PYZ-00.pyz',
    'PYZ'),
   ('struct',
    'c:\\users\\evgeniy '
@@ -46,7 +46,7 @@
    'C:\\Users\\Evgeniy '
    'Orlov\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
    'PYSOURCE'),
-  ('Statistic', 'C:\\python\\VeemSoftware\\Statistic.py', 'PYSOURCE')],
+  ('statistic', 'C:\\python\\VeemSoftware\\statistic.py', 'PYSOURCE')],
  True,
  False,
  False,

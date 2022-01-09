@@ -1,4 +1,4 @@
-(['C:\\python\\VeemSoftware\\Statistic.py'],
+(['C:\\python\\VeemSoftware\\statistic.py'],
  ['C:\\python\\VeemSoftware'],
  ['codecs'],
  [],
@@ -22,7 +22,7 @@
    'C:\\Users\\Evgeniy '
    'Orlov\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
    'PYSOURCE'),
-  ('Statistic', 'C:\\python\\VeemSoftware\\Statistic.py', 'PYSOURCE')],
+  ('statistic', 'C:\\python\\VeemSoftware\\statistic.py', 'PYSOURCE')],
  [('os',
    'c:\\users\\evgeniy '
    'orlov\\appdata\\local\\programs\\python\\python39\\lib\\os.py',
@@ -55,6 +55,18 @@
    'c:\\users\\evgeniy '
    'orlov\\appdata\\local\\programs\\python\\python39\\lib\\importlib\\__init__.py',
    'PYMODULE'),
+  ('importlib.abc',
+   'c:\\users\\evgeniy '
+   'orlov\\appdata\\local\\programs\\python\\python39\\lib\\importlib\\abc.py',
+   'PYMODULE'),
+  ('typing',
+   'c:\\users\\evgeniy '
+   'orlov\\appdata\\local\\programs\\python\\python39\\lib\\typing.py',
+   'PYMODULE'),
+  ('contextlib',
+   'c:\\users\\evgeniy '
+   'orlov\\appdata\\local\\programs\\python\\python39\\lib\\contextlib.py',
+   'PYMODULE'),
   ('importlib._bootstrap_external',
    'c:\\users\\evgeniy '
    'orlov\\appdata\\local\\programs\\python\\python39\\lib\\importlib\\_bootstrap_external.py',
@@ -62,10 +74,6 @@
   ('importlib.metadata',
    'c:\\users\\evgeniy '
    'orlov\\appdata\\local\\programs\\python\\python39\\lib\\importlib\\metadata.py',
-   'PYMODULE'),
-  ('contextlib',
-   'c:\\users\\evgeniy '
-   'orlov\\appdata\\local\\programs\\python\\python39\\lib\\contextlib.py',
    'PYMODULE'),
   ('configparser',
    'c:\\users\\evgeniy '
@@ -603,10 +611,6 @@
    'c:\\users\\evgeniy '
    'orlov\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\staggered.py',
    'PYMODULE'),
-  ('typing',
-   'c:\\users\\evgeniy '
-   'orlov\\appdata\\local\\programs\\python\\python39\\lib\\typing.py',
-   'PYMODULE'),
   ('asyncio.tasks',
    'c:\\users\\evgeniy '
    'orlov\\appdata\\local\\programs\\python\\python39\\lib\\asyncio\\tasks.py',
@@ -875,10 +879,6 @@
    'c:\\users\\evgeniy '
    'orlov\\appdata\\local\\programs\\python\\python39\\lib\\email\\errors.py',
    'PYMODULE'),
-  ('importlib.abc',
-   'c:\\users\\evgeniy '
-   'orlov\\appdata\\local\\programs\\python\\python39\\lib\\importlib\\abc.py',
-   'PYMODULE'),
   ('importlib._bootstrap',
    'c:\\users\\evgeniy '
    'orlov\\appdata\\local\\programs\\python\\python39\\lib\\importlib\\_bootstrap.py',
@@ -915,13 +915,13 @@
    'c:\\users\\evgeniy '
    'orlov\\appdata\\local\\programs\\python\\python39\\lib\\stringprep.py',
    'PYMODULE'),
-  ('tracemalloc',
-   'c:\\users\\evgeniy '
-   'orlov\\appdata\\local\\programs\\python\\python39\\lib\\tracemalloc.py',
-   'PYMODULE'),
   ('_py_abc',
    'c:\\users\\evgeniy '
    'orlov\\appdata\\local\\programs\\python\\python39\\lib\\_py_abc.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'c:\\users\\evgeniy '
+   'orlov\\appdata\\local\\programs\\python\\python39\\lib\\tracemalloc.py',
    'PYMODULE'),
   ('csv',
    'c:\\users\\evgeniy '
@@ -1007,13 +1007,13 @@
    'c:\\users\\evgeniy '
    'orlov\\appdata\\local\\programs\\python\\python39\\lib\\curses\\has_key.py',
    'PYMODULE')],
- [('python39.dll',
-   'c:\\users\\evgeniy '
-   'orlov\\appdata\\local\\programs\\python\\python39\\python39.dll',
-   'BINARY'),
-  ('VCRUNTIME140.dll',
+ [('VCRUNTIME140.dll',
    'c:\\users\\evgeniy '
    'orlov\\appdata\\local\\programs\\python\\python39\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('python39.dll',
+   'c:\\users\\evgeniy '
+   'orlov\\appdata\\local\\programs\\python\\python39\\python39.dll',
    'BINARY'),
   ('_lzma',
    'c:\\users\\evgeniy '
@@ -1094,6 +1094,6 @@
  [],
  [],
  [('base_library.zip',
-   'C:\\python\\VeemSoftware\\build\\Statistic\\base_library.zip',
+   'C:\\python\\VeemSoftware\\build\\statistic\\base_library.zip',
    'DATA')],
  [])

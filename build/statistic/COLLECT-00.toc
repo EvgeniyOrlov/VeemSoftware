@@ -1,13 +1,13 @@
-([('Statistic.exe',
-   'C:\\python\\VeemSoftware\\build\\Statistic\\Statistic.exe',
+([('statistic.exe',
+   'C:\\python\\VeemSoftware\\build\\statistic\\statistic.exe',
    'EXECUTABLE'),
-  ('python39.dll',
-   'c:\\users\\evgeniy '
-   'orlov\\appdata\\local\\programs\\python\\python39\\python39.dll',
-   'BINARY'),
   ('VCRUNTIME140.dll',
    'c:\\users\\evgeniy '
    'orlov\\appdata\\local\\programs\\python\\python39\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('python39.dll',
+   'c:\\users\\evgeniy '
+   'orlov\\appdata\\local\\programs\\python\\python39\\python39.dll',
    'BINARY'),
   ('_lzma',
    'c:\\users\\evgeniy '
@@ -86,5 +86,5 @@
    'orlov\\appdata\\local\\programs\\python\\python39\\DLLs\\libffi-7.dll',
    'BINARY'),
   ('base_library.zip',
-   'C:\\python\\VeemSoftware\\build\\Statistic\\base_library.zip',
+   'C:\\python\\VeemSoftware\\build\\statistic\\base_library.zip',
    'DATA')],)
